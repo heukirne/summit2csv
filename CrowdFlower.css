@@ -1,0 +1,13 @@
+.org, .per, .plc {
+  font-weight: bold;
+  color: red;
+}
+.texto {
+  font-size: 20px;
+}
+.word {
+  background-color: #e0e0d1;
+}
+.entity, .word {
+  color: black;
+}
