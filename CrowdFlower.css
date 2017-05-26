@@ -3,10 +3,18 @@
   color: red;
 }
 .texto {
-  font-size: 20px;
+  font-size: 24px;
+}
+.sentena_sem_relao {
+  font-weight: bold;
+  font-size: 19px;
 }
 .word {
-  background-color: #e0e0d1;
+  cursor: pointer;
+}
+.big {
+  font-weight: bold;
+  color: black;
 }
 .entity, .word {
   color: black;
