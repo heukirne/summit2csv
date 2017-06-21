@@ -1,9 +1,15 @@
 <div class="html-element-wrapper texto">
   <span>{{html}}</span>
 </div>
-<cml:text name="txt_rel" value="" label="Relação selecionada:" validates="required" />
-<cml:hidden name="id_rel" value="" validates="required" />
-<cml:checkbox label="Sentença sem relação" />
+<cml:text name="txt_rel" value="" label="Relação selecionada:" validates="required"></cml:text>
+<cml:text name="id_rel" value="" label="ID dos tokens da relação: " validates="required"></cml:text>
+<cml:checkbox label="Sentença sem relação" default="false" name="sentena_sem_relao"></cml:checkbox>
 <div class="html-element-wrapper respostas">
   <button class="corrigir" type="button">Corrigir</button>
+</div>
+<div class="text cml_field">
+  <label class="legend">Tripla resultante:</label>
+  <div class="cml_row">
+    <span class="tripla" data-ent1="{{id_ent1}}" data-ent2="{{id_ent2}}"></span>
+  </div>
 </div>
